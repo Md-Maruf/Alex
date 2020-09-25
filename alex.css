@@ -1,0 +1,505 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+	background:white;
+}
+/*=== Global CSS==*/
+img {
+    
+    max-width: 100%;
+    height: auto;
+}
+ul{
+	list-style:none;
+	padding:0;
+}
+
+
+
+/* Navbar */
+/* .activated{
+    color: #dc143c !important;
+} */
+nav{
+	background:#fff;	
+}
+
+li.nav-item a {
+    color: #000000 !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+.navbar-nav .nav-item a:hover{
+    color: #dc143c !important;
+}
+.sticky{
+	position:fixed;
+	width:100%;
+	z-index:11111;
+}
+
+/* SHowcase */
+
+.main-showcase{
+	background:url('images/header-photo.png');
+	width:100%;
+	height:92vh;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position: relative;
+}
+.name-title{
+	font-family: 'Oxygen', sans-serif;
+	font-weight:700;
+	font-size:45px;
+	margin-bottom: 25px;
+}
+.header-paragraph{
+	font-size:16px;
+	text-align:justify;
+}
+.content-showcase{
+	position: absolute;
+	margin: auto;
+	left: 36%;
+	top: 30%;
+	color: white;
+}
+.portfolio-butn:hover{
+    background:#dc143c;
+    color: white;
+    border:1px solid #dc143c ;
+}
+/* About me */
+#about-me{
+	padding:100px 0;
+}
+.about-photo {
+    width: 290px;
+    
+}
+.about-title h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.about-title {
+    border-bottom: 2px solid #fd0101;
+    width: 176px;
+    text-align: center;
+    margin-bottom: 35px;
+	margin-top:25px;
+}
+.cv-butn{
+    background:#dc143c ;
+    color: white;
+    transition: 0.3s;
+}
+.cv-butn:hover{
+    background: #28a745;
+    color: white;
+}
+.hire-butn {
+    padding: 6px 35px;
+    background: #28a745;
+    color: white;
+    transition: 0.3s;
+}
+.hire-butn:hover{
+    background:#dc143c;
+    color: white;
+}
+/* Skilllbar */
+
+.skill-title h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#skillbar {
+    background: #F5F5F5;
+    padding: 100px 0;
+}
+.sk-title{
+	font-weight: 700;
+}
+
+.skill-title{
+	border-bottom: 2px solid #fd0101;
+    width: 176px;
+    text-align: center;
+    margin-bottom: 35px;
+	margin-top:25px;
+}
+
+.skill-photo {
+    width: 314px;
+    margin-left: 160px;
+    margin-top: 25px;
+}
+
+/* Service section */
+.content-service {
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('images/DSC_0053.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding: 100px 0;
+    background-attachment: fixed;
+}
+h2.default-title {
+    color: #dc143c;
+    font-weight: 900;
+    font-size: 53px;
+}
+p.default-des {
+    color: #fff;
+    font-weight: 600;
+    font-style: italic;
+   
+}
+p.separate {
+    border-bottom: 1px solid red;
+    width: 274px;
+    margin: auto;
+    margin-bottom: 90px;
+}
+
+/* Service box */
+.servicebox {
+    background: #fff;
+    margin-bottom: 65px;
+	text-align:center;
+	position:relative;
+}
+h3.title {
+    font-size: 20px;
+    font-weight: 900;
+    color: #dc143c;
+    position: relative;
+    top: 50px;
+}
+.service-icon {
+    font-size: 50px;
+    border: 2px solid #dc143c;
+    width: 90px;
+    margin: auto;
+    margin-top: -29px;
+    position: absolute;
+    left: 36%;
+    height: 65px;
+    top: -4px;
+}
+.service-icon i {
+	padding-top:6px;
+}
+p.description {
+    margin-top: 62px;
+    position: relative;
+    padding-bottom: 26px;
+}
+/* Number */
+span.number {
+    position: absolute;
+    top: 16%;
+    right: 68%;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    opacity: 0.150;
+    font-style: italic;
+}
+
+.service-icon i {
+    padding-bottom: 7px;
+    background: #dc143c;
+    box-sizing: border-box;
+    padding-right: 17px;
+    padding-left: 13px;
+	color:white;
+}
+i.fas.fa-camera-retro.camera,i.fab.fa-wordpress.wp {
+    padding-right: 19px;
+    padding-left: 17px;
+}
+i.fab.fa-adobe.aps {
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+i.fab.fa-pied-piper.piper {
+    padding-right: 21px;
+    padding-left: 22px;
+}
+
+i.fas.fa-laptop-code.laptop {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+/*============ */
+/*  Recent work */
+/*============ */
+#recent-work{
+	padding:100px 0;
+	background:#1e1e1f
+}
+.recent-box img {
+    width: 100%;
+    height: 265px;
+    margin-bottom: 25px;
+}
+
+.recent-box {
+    position: relative;
+	overflow:hidden;
+}
+
+.recent-overlay {
+    position: absolute;
+    background: rgba(255, 0, 0, 0.56);
+    width: 100%;
+    height: 91%;
+    top: -100%;
+    text-align: -webkit-center;
+	transition:0.7s;
+	color:#fff;
+}
+.recent-box:hover .recent-overlay{
+	top:0;
+	
+}
+.recent-overlay h2{margin-top: 87px;}
+
+.recent-overlay i {
+    margin-top: -1px;
+}
+
+
+/*============ ==========*/
+/* Portfolio isotop css */
+/*============ ===========*/
+#portfolio{
+	background: #f5f5f5;
+    padding: 100px 0;
+}
+.grid-item img {
+    width: 317px;
+    height: 265px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+.grid {
+    margin-left: 59px;
+}
+.pf-title h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+/*==== Testimonials === */
+.carousel-item {
+    width: 40%;
+    
+}
+#full-inner{
+	margin-top:-112px;
+}
+.testimonials{
+	background:#272626;
+	color:white;
+	padding:100px 0;
+}
+.testimonials .carousel-indicators{
+	bottom:-60px;
+	right:49px;
+}
+.carousel-item h2{
+	margin-top:15px;
+}
+.carousel-inner p{
+	font-size:12px;
+	font-weight:300px;
+	letter-spacing:1px;
+	margin-top:20px;
+	font-style:italic;
+}
+.carousel-indicators li{
+	background-color:white;
+	width:20px;
+	transition: all 0.5s ease-in;
+}
+.carousel-item.text-center {
+    left: 322px;
+}
+
+/* ============ ==================================== ================== */
+/*                        Start Blog Page                                    */
+/* ============ ==================================== ================== */ 
+
+#blog-body{
+	background: url('images/generic-bg.jpg');
+}
+
+/*=== WEb Design === */
+img.first-add {
+    margin-top: 95px;
+    margin-bottom: 80px;
+}
+.author-area {
+    margin-top: 20px;
+    margin-bottom: 30px;
+	overflow:hidden;
+}
+.author-area li{
+	float:left;
+	
+}
+li.web-li {
+    font-size: 13px;
+    margin-top: -5px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.author-area span {
+    margin-left: 20px;
+    position: relative;
+    top: -3px;
+}
+
+i.far.fa-clock {
+    margin-top: 3px;
+    position: absolute;
+}
+.blog-area {
+    box-shadow: 1px 3px 5px 3px #bfbfb96b;
+    background: #fff;
+    padding: 20px 10px;
+    border-radius: 0 0 5px 5px;
+}
+h2.web-title {font-weight: 600;color: #e43838;margin-bottom:15px;}
+
+/*=== Graphics Design === */
+.graphics-blog,
+.photography-blog {
+    margin-top: 85px;
+}
+
+/* ============ ==================================== ================== */
+/*                        End Blog Page                                    */
+/* ============ ==================================== ================== */ 
+
+/*== Latest Blog == */
+
+section#letest-blog {
+    background: #f5f5f5;
+    padding: 100px 0;
+}
+
+p.separate.latest-separator {
+    width: 200px;
+}
+h2.latest-title {
+    color: #000000;
+}
+.card img:hover {
+	transform: scale(0.9);
+	transition: 1s;
+	}
+
+.lets-work-area{
+	margin:auto;
+}
+
+section#lets-work {
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('images/blog/hipster-stuff.jpg');
+    padding: 150px 0;
+    color: #fff;
+	background-attachment:fixed;
+	background-size:cover;
+}
+.let-butn:hover{
+    background:#dc143c;
+    color: white;
+    border:1px solid #dc143c ;
+}
+/*== Contact Me  == */
+section#contact {
+    background: #1e1e1f;
+    padding: 150px 0;
+}
+.get-butn:hover{
+    background:#dc143c;
+    color: white;
+    border:1px solid #dc143c ;
+}
+/* == Footer == */
+.whole-control {
+    background: #262727;
+    color: white;
+    padding: 15px 0;
+}
+ul.footer-ul li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+
+.whole-control span a{
+	text-decoration:none;
+}
+
+.whole-control span a:hover{
+	color:#007bff;
+}
+div#go-top {
+    width: 55px;
+    height: 55px;
+    background: black;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.2;
+    position: fixed;
+    right: 50px;
+    bottom: 25px;
+    border-radius: 5px;
+    display: none;
+    transition: 0.2s;
+}
+#go-top a{
+    color: #dc143c;
+    transition: 0.2s;
+}
+#go-top:hover{
+    background:#dc143c;
+}
+#go-top:hover a{
+    color: white;
+}
+@media only screen and (max-width: 500px) {
+  .content-showcase{
+    width: 100%;
+    left: 5%;
+  }
+  .header-paragraph{
+    padding-right: 30px;
+  }
+  .carousel-inner{
+    width: 100%;
+    left: -40%;
+    overflow: visible;
+  }
+}
+@media only screen and (max-width: 360px){
+    .skill-photo{
+        width: 100%;
+        margin-left: 0;
+    }
+    .carousel-inner{
+    width: 100%;
+    left: -70%;
+    overflow: visible;
+  }
+}
+
+

@@ -1,0 +1,18 @@
+body{
+	background:#333;
+	color:#fff;
+}
+
+.navbar{
+	border-bottom:3px solid #008ed6;
+	background:#292b2c;
+	opacity:0.7;
+}
+
+#home-section {
+    background:url(desk.jpeg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
